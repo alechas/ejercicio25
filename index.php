@@ -28,7 +28,7 @@ $longitud = 10;
 <br>
 <br>
 <br>
-  <rect width=$altura height=$longitud style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  <rect width=22 height=11 style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 
 
 </form>
