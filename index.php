@@ -16,6 +16,8 @@ if(isset($_POST["altura"]))
 	$longitud = $_POST['longitud'];	
 
 }
+$altura = 10;
+$longitud = 10;
 ?>
 
 <label> Altura <br></label>
@@ -28,7 +30,6 @@ if(isset($_POST["altura"]))
 <br>
 
 
-<input type="reset">
 
 <svg width=$altura height=$longitud>
   <rect width=$altura height=$longitud style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
