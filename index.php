@@ -8,6 +8,16 @@
 <form action="index.php" method="post" id="FormIngreso">
 <label> Ingrese los datos de un rectangulo <br></label>
 
+<?php
+if(isset($_POST["altura"]))
+{
+
+	$altura = $_POST['altura'];	
+	$longitud = $_POST['longitud'];	
+
+}
+?>
+
 <label> Altura <br></label>
 <input type = "text" name = "altura" text =Altura>
 
