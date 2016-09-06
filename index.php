@@ -27,8 +27,8 @@ if(isset($_POST['altura']))
 
 ?>
 
-<svg width=$_POST['altura'] height=$_POST['altura']>
-  <rect width=$_POST['altura'] height=$_POST['altura'] style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+<svg width= Value="<?php $_POST['altura']?>" height=Value="<?php $_POST['altura']?>">
+  <rect width=Value="<?php $_POST['altura']?>" height=Value="<?php $_POST['altura']?>" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 </svg>
 
 <input type="submit" class="MibotonUTNMenuInicio">
