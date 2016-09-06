@@ -16,8 +16,8 @@ if(isset($_POST["altura"]))
 	$longitud = $_POST['longitud'];	
 
 }
-$altura = 10;
-$longitud = 10;
+$altura = 1000;
+$longitud = 1000;
 ?>
 
 <label> Altura <br></label>
