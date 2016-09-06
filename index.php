@@ -28,8 +28,10 @@ $longitud = 10;
 <br>
 <br>
 <br>
-  <rect width=22 height=11 style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 
+<svg width=$altura height=$longitud>
+  <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
 
 </form>
 
