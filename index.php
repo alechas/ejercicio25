@@ -17,11 +17,13 @@
 <br>
 <br>
 
+
+<input name="submit">
+
 <svg width=$altura height=$longitud>
   <rect width=$altura height=$longitud style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 </svg>
 
-<input type="submit">
 </form>
 
 </div>
