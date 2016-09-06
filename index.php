@@ -14,7 +14,9 @@
 <label> Longitud <br></label>
 <input type="text" name = "longitud">
 <br>
-<svg width="400" height="110">
+<br>
+<br>
+<svg width="0" height="0">
   <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 </svg>
 
