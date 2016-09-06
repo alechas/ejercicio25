@@ -5,7 +5,7 @@
     </head>
 
 <div class="CajaInicio">
-<form action="calcular.php" method="post" id="FormIngreso">
+<form action="index.php" method="post" id="FormIngreso">
 <label> Ingrese los datos de un rectangulo <br></label>
 
 <label> Altura <br></label>
@@ -16,8 +16,9 @@
 <br>
 <br>
 <br>
-<svg width="0" height="0">
-  <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+
+<svg width=$altura height=$longitud>
+  <rect width=$altura height=$longitud style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 </svg>
 
 <input type="submit">
