@@ -8,17 +8,7 @@
 <form action="index.php" method="post" id="FormIngreso">
 <label> Ingrese los datos de un rectangulo <br></label>
 
-<?php
-if(isset($_POST["altura"]))
-{
 
-	$altura = $_POST['altura'];	
-	$longitud = $_POST['longitud'];	
-
-}
-$altura = 1000;
-$longitud = 1000;
-?>
 
 <label> Altura <br></label>
 <input type = "text" name = "altura" text =Altura>
@@ -29,7 +19,7 @@ $longitud = 1000;
 <br>
 <br>
 
-<svg width=$altura height=$longitud>
+<svg width="400" height="110">
   <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 </svg>
 
