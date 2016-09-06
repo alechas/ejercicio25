@@ -31,6 +31,8 @@ if(isset($_POST['altura']))
   <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 </svg>
 
+<input type="submit" class="MibotonUTNMenuInicio">
+
 </form>
 
 </div>
