@@ -14,11 +14,9 @@
 <label> Longitud <br></label>
 <input type="text" name = "longitud">
 
-<?php
-ctx=c.getContext("2d");
-ctx.rect(20,20,150,100);
-ctx.stroke();
-?>
+<svg width="400" height="110">
+  <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
 
 <input type="submit">
 </form>
