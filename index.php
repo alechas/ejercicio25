@@ -18,7 +18,7 @@
 <br>
 
 
-<input name="submit">
+<input type="text">
 
 <svg width=$altura height=$longitud>
   <rect width=$altura height=$longitud style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
